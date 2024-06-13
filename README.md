@@ -11,12 +11,14 @@ Welcome to the SECE Chatbot project! This project is designed to provide an inte
 
 ## 🚀 Getting Started
 
-### Prerequisites
+- Create api key with huggingface, groq, pinecone.
+- Create index with desired name and change it in the files.
+- Ensure you have added you own api key to use it...
+- Make sure to run sece_chat_load.py to load data to vector db
 
-Ensure you have added you own api key to use it...
 
-##📚 Screenshots
 
+## 📚 Screenshots
 
 ![Screenshot 2024-06-13 193839](https://github.com/jai2992/chat_buddy/assets/136327019/9b9546bf-cdc7-4b32-b5cc-19a5070637ec)
 
@@ -24,7 +26,14 @@ Ensure you have added you own api key to use it...
 
 ## 📄 Project Structure
 
+- `sece-doc/sece doc data 1.pdf`: The content of the college to retireve information.
+- `sece_chat_load`: To load the content to vectordb.
 - `app.py`: Main application file containing Flask setup and routes.
 - `templates/index.html`: HTML file for the frontend.
 - `static/`: Directory for static files like CSS and JS.
 - `requirements.txt`: List of required Python packages.
+
+
+## Contact
+
+jaiguru.l2022ai-ml@sece.ac.in
